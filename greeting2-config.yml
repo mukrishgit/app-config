@@ -1,15 +1,15 @@
 security:
   basic:
-    enabled: false
+    enabled: true
 
 management:
   security:
-    enabled: false
+    enabled: true
 
 logging:
   level:
     io:
-      pivotal: INFO
+      pivotal: DEBUG
 
 greeting:
   displayFortune: true
